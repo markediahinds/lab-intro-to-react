@@ -2,14 +2,20 @@
     grid-column: 2/3;
     grid-row: 2/4;
     width: 90%;
-    margin-top: 5%;
+    height: 92.7%;
+    margin-top: 4%;
     border: 1px solid black;
     text-align: center;
-    font-weight: 600;
-    padding: 2.5%;
+    padding: 2%;
 }
 
-.contacts-container__card {
-    border: 1px solid black;
-    padding: 2em;
+.contacts-container > div { // all it's children, if content in container is greater/has children
+    border: 1px solid;
+    margin: 8% 0 5% 4.5%;
+    width: 90%;
+}
+
+.contacts-container__header {
+    font-weight: 600;
+    font-size: large;
 }

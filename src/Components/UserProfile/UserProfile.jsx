@@ -5,7 +5,7 @@ import ContactUserCard from '../Contacts/ContactUserCard/ContactUserCard'
 const UserProfile = () => {
   return (
     <div className='userprofile-container'>
-    <ContactUserCard/>
+    <ContactUserCard />
     </div>
   )
 }

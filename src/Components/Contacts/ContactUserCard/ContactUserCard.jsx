@@ -4,6 +4,7 @@ import profile from './profile.png'
 
 const ContactUserCard = () => {
     return (
+        <>
         <div className='usercard-container'>
             <img className='usercard-container__image' src={profile}></img>
             <div className='usercard-container__info'>
@@ -12,6 +13,8 @@ const ContactUserCard = () => {
                 <p className='usercard-container__bio'>Lorem Ipsem</p>
             </div>
         </div>
+        </>
+       
     )
 }
 

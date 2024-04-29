@@ -6,9 +6,11 @@ const Posts = () => {
   return (
     <div className='posts-container'>
       <p className='posts-container__header'>Posts</p>
-      <Post className='posts-container__post'/>
-      <Post className='posts-container__post'/>
-      <Post className='posts-container__post'/>
+      <div className='posts-container__post'>
+      <Post />
+      <Post />
+      <Post />
+      </div>
     </div>
   )
 }

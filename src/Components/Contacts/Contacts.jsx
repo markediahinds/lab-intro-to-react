@@ -4,11 +4,13 @@ import ContactUserCard from './ContactUserCard/ContactUserCard'
 
 const Contacts = () => {
     return (
-        <div className='contacts-container'>Contacts
-        <ContactUserCard className='contacts-container__card'/>
+        <div className='contacts-container'>
+        <p className='contacts-container__header'>Contacts</p>
         <ContactUserCard/>
         <ContactUserCard/>
         <ContactUserCard/>
+        <ContactUserCard/>
+        
         </div>
     )
 }
