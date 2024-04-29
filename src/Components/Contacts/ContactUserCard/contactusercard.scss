@@ -1,0 +1,27 @@
+.usercard-container {
+    display: flex;
+}
+    
+.usercard-container__image {
+    height: 100%;
+    margin-left: .1%;
+    border-bottom: 2px solid #999999;
+    }
+
+.usercard-container__name {
+    font-weight: 600;
+    width: 100%;
+    margin: 25% 0 0 18%;
+}
+
+.usercard-container__title {
+    font-weight: 600;
+    font-size: small;
+    width: 100%;
+    margin: 10% 0 0 29%;
+}
+
+.usercard-container__bio {
+    font-size: x-small;
+    margin: 10% 0 0 39%;
+}

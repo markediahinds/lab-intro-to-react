@@ -1,0 +1,15 @@
+.contacts-container {
+    grid-column: 2/3;
+    grid-row: 2/4;
+    width: 90%;
+    margin-top: 5%;
+    border: 1px solid black;
+    text-align: center;
+    font-weight: 600;
+    padding: 2.5%;
+}
+
+.contacts-container__card {
+    border: 1px solid black;
+    padding: 2em;
+}
